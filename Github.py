@@ -61,7 +61,7 @@ print("""\n Bem vindo ao nosso jogo da Forca organizado pelos alunos:
 - Fernanda
 - Yasmin
 Espero que se divirta""")
-aleatorio = ['Amiga', 'Amor', 'Ave', 'Avião', 'Avó', 'Balão', 'Bebê', 'Bolo', 'Branco', 'Cama', 'Caneca', 'Celular', 'Céu', 'Clube', 'Copo', 'Doce', 'Elefante', 'Escola', 'Estojo', 'Faca', 'Foto', 'Garfo', 'Geleia', 'Girafa', 'Janela', 'Limonada', 'Mãe', 'Meia', 'Noite', 'Óculos', 'ônibus', 'Ovo', 'Pai', 'Pão', 'Parque', 'Passarinho', 'Peixe', 'Pijama', 'Rato', 'Umbigo']
+aleatorio = ['amiga', 'amor', 'ave', 'avião', 'avo', 'balao', 'bebe', 'bolo', 'branco', 'cama', 'caneca', 'celular', 'ceu', 'clube', 'dopo', 'doce', 'elefante', 'escola', 'estojo', 'faca', 'foto', 'garfo', 'geleia', 'girafa', 'janela', 'limonada', 'mae', 'meia', 'noite', 'oculos', 'onibus', 'ovo', 'pai', 'pão', 'parque', 'passarinho', 'peixe', 'pijama', 'rato', 'umbigo']
 palavra = random.choice(aleatorio)
 
 quantidade_de_letras = len(palavra)
@@ -88,7 +88,7 @@ while erros < 6:
           acertos += letra
           letras_certas += 1
           if len(set(palavra)) == letras_certas:
-            print('\nVocê venceu! 😄\n')
+            print('\nVocê venceu! \n')
             print(f'A palavra é "{palavra}"!')
             break
         else:
@@ -110,5 +110,5 @@ while erros < 6:
     print('Caractére inválido!')
     
 if erros == 6:
-  print('\nVocê perdeu 💀\n')
+  print('\nVocê perdeu \n')
   print(f'\nA palavra era "{palavra}"\n')
