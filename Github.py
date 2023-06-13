@@ -61,7 +61,7 @@ print("""\n Bem vindo ao nosso jogo da Forca organizado pelos alunos:
 - Fernanda
 - Yasmin
 Espero que se divirta""")
-aleatorio = ['amiga', 'amor', 'ave', 'avião', 'avo', 'balao', 'bebe', 'bolo', 'branco', 'cama', 'caneca', 'celular', 'ceu', 'clube', 'dopo', 'doce', 'elefante', 'escola', 'estojo', 'faca', 'foto', 'garfo', 'geleia', 'girafa', 'janela', 'limonada', 'mae', 'meia', 'noite', 'oculos', 'onibus', 'ovo', 'pai', 'pão', 'parque', 'passarinho', 'peixe', 'pijama', 'rato', 'umbigo']
+aleatorio = ['amiga', 'amor', 'ave', 'aviao', 'avo', 'balao', 'bebe', 'bolo', 'branco', 'cama', 'caneca', 'celular', 'ceu', 'clube', 'dopo', 'doce', 'elefante', 'escola', 'estojo', 'faca', 'foto', 'garfo', 'geleia', 'girafa', 'janela', 'limonada', 'mae', 'meia', 'noite', 'oculos', 'onibus', 'ovo', 'pai', 'pao', 'parque', 'passarinho', 'peixe', 'pijama', 'rato', 'umbigo']
 palavra = random.choice(aleatorio)
 
 quantidade_de_letras = len(palavra)
